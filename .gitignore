@@ -1,1 +1,10 @@
+# Ignore data files
 data/*.pkl
+
+# Ignore outputs
+outputs/
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
