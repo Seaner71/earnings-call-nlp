@@ -40,6 +40,10 @@ The dataset includes:
 
 > **Note:** Raw data files are intentionally excluded from the GitHub repository due to size constraints.
 
+This project uses OpenAI’s API (e.g., for summarizing earnings call transcripts). To run the notebooks:
+- Obtain an API key from OpenAI
+- Set it as an environment variable in your system:
+
 ---
 
 ## Project Approach
