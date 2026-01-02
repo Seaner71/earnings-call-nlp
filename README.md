@@ -61,6 +61,14 @@ This project uses OpenAI’s API (e.g., for summarizing earnings call transcript
   - Executive summary bullets
   - Key topics discussed
   - Management vs analyst emphasis
+Metrics & Analysis 
+- Added preliminary metrics to evaluate summaries:
+- Character lengths, Word counts, Word compression ratios (summary length / original text length)
+- Section presence counts for Prepared Remarks
+
+Initial visualizations 
+- Distribution of transcript section lengths,  Compression ratios per section, Bullet counts and section coverage  
+
 
 ### Phase 3: Sentiment & Tone Analysis (Extension)
 - Apply sentiment analysis to management commentary
@@ -93,4 +101,7 @@ This pipeline is designed to support real-world investment workflows, including:
 ---
 
 ## Repository Structure
+
+
+
 
