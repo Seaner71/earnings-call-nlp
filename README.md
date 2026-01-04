@@ -64,10 +64,11 @@ This project uses OpenAI’s API (e.g., for summarizing earnings call transcript
 Metrics & Analysis 
 - Added preliminary metrics to evaluate summaries:
 - Character lengths, Word counts, Word compression ratios (summary length / original text length)
+- Bullet counts
 - Section presence counts for Prepared Remarks
 
-Initial visualizations 
-- Distribution of transcript section lengths,  Compression ratios per section, Bullet counts and section coverage  
+These diagnostics uncovered instruction-following issues such as over-length summaries,repeated sections, and formatting drift.
+It provides a foundation for prompt iteration and future semantic evaluation. 
 
 
 ### Phase 3: Sentiment & Tone Analysis (Extension)
